@@ -209,6 +209,7 @@ nav {
   background-color: whitesmoke;
   position: relative;
   clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+  padding: 50px 0;
 }
 
 .productImg {
@@ -554,15 +555,17 @@ footer {
     width: 90%;
   }
   .footerRight{
-    padding: 20px;
+    padding: 30px;
     width: 90%;
     align-items: center;
+    text-align: center;
     background-color: whitesmoke;
   }
   .payment{
    width: 90%; 
    padding: 20px;
   }
-
-
+ .fIcons{
+  padding-bottom: 10px;
+ }
 }
