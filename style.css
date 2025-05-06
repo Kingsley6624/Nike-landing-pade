@@ -53,8 +53,10 @@ nav {
 }
 
 .menuItem {
-  color: lightgray;
+  margin-right: 50px;
   cursor: pointer;
+  color: lightgray;
+  font-weight: 400;
 }
 
 
@@ -154,7 +156,7 @@ nav {
 }
 
 .sliderItem:nth-child(2) .slidePrice {
-  color: #ffff;
+  color: rebeccapurple;
 }
 
 .sliderItem:nth-child(3) .slidePrice {
@@ -451,6 +453,7 @@ footer {
 
 .fIcons {
   display: flex;
+  margin-top: 18px;
 }
 
 .fIcon {
@@ -462,6 +465,34 @@ footer {
 .copyright {
   font-weight: 300;
   font-size: 14px;
+}
+
+
+@media screen and (max-width: 850px) {
+  .slideTitle{
+    right: 0;
+  }
+  .sliderImg{
+    width: 700px;
+  }
+  .slidePrice{
+    left: 0;
+    color: white;
+  }
+
+  .product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    padding: 30px 0;
+
+  }
+  .productImg{
+    width: 70%;
+  }
+ 
+
 }
 
 @media screen and (max-width: 480px) {
@@ -555,7 +586,7 @@ footer {
     width: 90%;
   }
   .footerRight{
-    padding: 30px;
+    padding: 20px;
     width: 90%;
     align-items: center;
     text-align: center;
